@@ -6,17 +6,36 @@
     <title>Stopwatch</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <!--------------- Stopwatch -------------------------->
         <section class="watch">
             <div class="outer_display">
-                <div class="inner_display"></div>
+                <div class="inner_display">
+                    <span class="text">01 :</span>
+                    <span class="text">47 :</span>
+                    <span class="text">97</span>
+                </div>
             </div>
         </section>
 
+        <!------------- Buttons ------------------------->
+        <section class="controls">
+            <button class="btn">Start</button>
+            <button class="btn">Play</button>
+            <button class="btn">Lap</button>
+        </section>
+
         <!-------------- Lapse Time View --------------------->
-        <section class="lapse_time"></section>
+        <section class="laps_time">
+            <ul>
+                <li class="laps_item">
+                    <span class="num">#1</span>
+                    <span class="time_stamp">01 : 43 : 07</span>
+                </li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
