@@ -16,8 +16,8 @@ body{
 }
 
 .outer_display{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -26,9 +26,14 @@ body{
 }
 
 .inner_display{
-    width: 280px;
-    height: 280px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     background-color: black;
-    /* position: relative; */
+}
+
+.lapse_time{
+    width: 250px;
+    height: 300px;
+    overflow: scroll;
 }
