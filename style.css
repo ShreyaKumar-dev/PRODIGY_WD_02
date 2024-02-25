@@ -48,17 +48,34 @@ body{
 /****************** CONTROLS ****************/
 .controls{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .controls .algn{
-    width: 250px;
+    width: 290px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+}
+
+.controls .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls .main button{
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .t{
@@ -67,8 +84,8 @@ body{
     justify-content: center;
     background-color: transparent;
     border: 1px solid white;
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -127,4 +144,5 @@ body{
 
 .hidden{
     visibility: hidden;
+    /* issue */
 }
