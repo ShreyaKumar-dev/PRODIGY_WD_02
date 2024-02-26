@@ -16,12 +16,12 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .outer_display{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -30,8 +30,8 @@ body{
 }
 
 .inner_display{
-    width: 185px;
-    height: 185px;
+    width: 235px;
+    height: 235px;
     border-radius: 50%;
     background-color: black;
     display: flex;
@@ -41,7 +41,7 @@ body{
 
 .text{
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     margin: 5px;
 }
 
@@ -51,7 +51,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .controls .algn{
@@ -98,7 +98,7 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .laps_time ul{
