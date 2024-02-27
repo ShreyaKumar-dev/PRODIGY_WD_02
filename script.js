@@ -1,8 +1,9 @@
 const lapButton = document.getElementById("lap")[0];
+const pauseButton = document.getElementById("pause")[0];
 const playButton = document.getElementById("play")[0];
 const resetButton = document.getElementById("reset")[0];
 
-let isPlay = false;
+let isPlay = false
 
 const toggleButton = () => {
     lapButton.classList.remove("hidden")
@@ -11,13 +12,18 @@ const toggleButton = () => {
 
 const play = () => {
     if (!isPlay) {
-        playButton.innerHTML = "https://img.icons8.com/windows/32/FFFFFF/pause--v1.png";
+        playButton.innerHTML = 'Pause';
         isPlay = true;
     } else{
-        playButton.innerHTML = "https://img.icons8.com/fluency-systems-regular/26/FFFFFF/play--v1.png";
+        playButton.innerHTML = 'Play';
         isPlay = false;
     }
     toggleButton();
+}
+
+const reset = () => {
+    lapButton.classList.add("hidden")
+    resetButton.classList.add("hidden")
 }
 
 playButton.addEventListener("click", play);
